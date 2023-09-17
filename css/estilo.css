@@ -1,0 +1,72 @@
+
+@font-face {
+    font-family: 'digitalFont';
+    src: url('../fonts/DS-DIGI.TTF') format('truetype');
+    /* Adicione outros estilos de fonte, como font-weight e font-style, se necessário */
+  }
+
+*{
+   font-family: digitalFont;
+}
+body{
+    background-color: #020223;
+    width: 100vw; height: 90vh;
+    overflow: hidden;
+
+}
+  
+
+.clock{
+    position: relative;
+    top: 30%;
+    width: 80%;
+    margin: auto;
+   
+
+}
+#hora-atual{
+    font-size: 3rem;
+    color: aqua;
+    text-shadow: 0 2px 40px rgb(11, 128, 89);
+    text-align: center;
+    letter-spacing: 1rem;
+}
+#data-atual{
+    font-size: 1rem;
+    color: aqua;
+    text-align: center;
+   letter-spacing: 0.7rem;
+
+
+
+}
+
+#data-atual:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+#hora-atual:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.efect{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-500%);
+    background-color: transparent;
+    width: 300px; height: 100px;
+    box-shadow: 10px 400px 300px rgb(3, 164, 164);
+}
+
+footer{
+    position: absolute;
+    width: 50%;
+    bottom: 10px;
+    left: 40%;
+   
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(240, 248, 255, 0.536);
+    font-size: 0.7rem;
+}
